@@ -1,0 +1,36 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="0" fill="#06120e"/>
+  <circle cx="350" cy="250" r="160" fill="#30d158" fill-opacity="0.14" filter="blur(60px)"/>
+  <circle cx="500" cy="200" r="140" fill="#0a84ff" fill-opacity="0.12" filter="blur(50px)"/>
+  
+  <!-- UI Window Container -->
+  <rect x="80" y="70" width="640" height="360" rx="16" fill="#0d1f18" stroke="#1f4e3c" stroke-width="1.5"/>
+  
+  <!-- Window Header -->
+  <circle cx="108" cy="98" r="6" fill="#ff5f56"/>
+  <circle cx="128" cy="98" r="6" fill="#ffbd2e"/>
+  <circle cx="148" cy="98" r="6" fill="#27c93f"/>
+  <text x="180" y="103" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="13" font-weight="500">VzenCare · Retinal Diagnostics ML Pipeline</text>
+  <line x1="80" y1="126" x2="720" y2="126" stroke="#1f4e3c" stroke-width="1"/>
+
+  <!-- Left: Retinal Scan Viz -->
+  <rect x="104" y="150" width="220" height="240" rx="12" fill="#05150f" stroke="#1f4e3c"/>
+  <circle cx="214" cy="250" r="60" stroke="#30d158" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="214" cy="250" r="28" fill="#30d158" fill-opacity="0.2"/>
+  <circle cx="214" cy="250" r="8" fill="#30d158"/>
+  <text x="144" y="340" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Fundus Retinal Scan</text>
+  <text x="146" y="360" fill="#a7f3d0" font-family="-apple-system, sans-serif" font-size="11">Confidence: 96.4%</text>
+
+  <!-- Right: Model Prediction & Stages -->
+  <rect x="344" y="150" width="352" height="110" rx="10" fill="#05150f" stroke="#1f4e3c"/>
+  <text x="364" y="180" fill="#30d158" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">DIAGNOSTIC STAGING</text>
+  <text x="364" y="206" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="16" font-weight="700">Diabetic Retinopathy · Stage 1 (Mild)</text>
+  <text x="364" y="234" fill="#a7f3d0" font-family="-apple-system, sans-serif" font-size="12">Fatigue Detection: Normal · Macular Edema: Negative</text>
+
+  <!-- Pipeline info -->
+  <rect x="344" y="280" width="352" height="110" rx="10" fill="#05150f" stroke="#1f4e3c"/>
+  <text x="364" y="310" fill="#38bdf8" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">STARTUPTHON RECOGNITION</text>
+  <text x="364" y="336" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="600">All India Rank 1 · UptoSkills StartupThon</text>
+  <text x="364" y="362" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="12">Selected #1 among 1,000+ national startups</text>
+</svg>
+
